@@ -1,0 +1,405 @@
+/*
+GLOBAL
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: auto;
+    border: 2px solid #cc9933;
+    width: 1186px;
+    max-width: 100%;
+    padding: auto;   
+}
+
+header div .logo_section {
+    height: 224px;
+    padding-top: 62px;
+    padding-bottom: 40px;
+    text-align: center;
+} 
+
+header div .logo_section img {
+    width: 216px;
+    height: 216px;
+    border: 4px solid #cc9900;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    max-width: 100%;
+}
+
+
+main aside address {
+    margin-top:0;
+    margin-bottom: 46px;
+}
+
+main aside address p, main aside .description_section .description, footer .footer_area .footer_child1 p {
+    text-align: center;
+    background-color: #333333;
+    color: #ffcc00;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    font-style:normal;
+    font-weight: 4px;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+
+main aside address ul {
+    font-style: normal;
+    list-style: none;
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 48px;
+    color:#333333;
+    margin-bottom: 23px;
+    margin-top: 23px;   
+}
+
+main aside address ul li {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+main aside .description_section p  {
+    font-size: large;
+    line-height: 17px;
+    font-family: auto;
+    font-weight: 1px;
+    padding-left: 48px;
+    padding-right: 48px;
+    text-align: justify;
+    color: #333333;
+}
+
+header .header_child2 .big_title, main .main_area article, footer .reference_title {
+    padding-left: 65px;
+    padding-right: 65px;
+    font-family: auto;
+    font-size: large;
+}
+
+header .header_child2 .big_title {
+    margin-bottom: 110px;
+    margin-top: 19px;
+    letter-spacing: 8px;
+    word-spacing: 20px;
+}
+
+header .header_child2 h1 {
+    padding-top: 116px;
+    font-weight: 300;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+
+header .header_child2 h1 span {
+    font-weight: 400;
+    color: #ffcc00;
+}
+
+.position {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+
+header .header_child2 .little_surline {
+ width: 78px;
+ float: left;
+ margin-top: 8px;
+ margin-bottom: 0px;
+}
+
+hr {
+    border: 2px solid #ffcc00; 
+}
+
+/*
+ARTICLE
+*/
+
+.fas, .far {
+    color: #ffcc00;
+}
+.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt {
+    font-size: 40px;
+    margin-right: 38px;
+    position: relative;
+    top: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 4px;
+    letter-spacing: 2px;
+}
+
+.profession_title, .formation_area .date_region, .profession_area .date_region, .reference_title, footer .footer_child1 .hobbies_list {
+    text-align: left; padding: 0; margin: 0;
+}
+
+.profession_title .fa-briefcase, .profession_title h2, .formation_title .fa-graduation-cap, .formation_title h2, .formation_area .date_region .fa-dot-circle, .formation_area .date_region ul, .formation_title h2, .formation_area .date_region .fa-dot-circle, .profession_title .fa-graduation-cap, .profession_title h2, .profession_area .date_region .fa-dot-circle, .profession_area .date_region ul, .profession_title h2, .profession_area .date_region .fa-dot-circle, .reference_title .fa-pencil-alt, .reference_title h2, footer ul li{
+    display: inline-block;
+}
+.formation_area .date_region, .profession_area .date_region {
+    position: relative;
+}
+
+.formation_area .date_region .fa-dot-circle, .formation_area .date_region .fa-circle, .profession_area .date_region .fa-dot-circle, .profession_area .date_region .fa-circle {
+    position: absolute;
+    top: 22px;
+}
+.formation_area .date_region ul, .profession_area .date_region ul {
+  list-style: none;
+  position: absolute;
+  top: 5px;
+}
+
+.footer_area .main_footer, .header_area .main_header, .main_area .main_main { display: flex}
+.formation_area, .profession_area {width: 100%; margin: 46px 0; overflow: hidden; }
+.header_area, .main_area, .footer_area, .header_area .main_header, .main_area .main_main, .footer_area .main_footer, .formation_area .main_formation, .profession_area .main_profession, .reference_area {width: 100%; overflow: hidden; margin: 0;}
+.reference_area .main_reference {width: 100%; overflow: hidden; margin: 15px 0px 30px 65px; font-family: auto;}
+.formation_area .formation_child1, .profession_area .profession_child1{width: 254px; margin: 0 0 46px 0; padding: 0; float: left; }
+.formation_area .formation_child2, .profession_area .profession_child2{width: 335px; margin: 0 0 0 0; padding: 0; float: left;}
+footer .footer_child1, header .header_child1, main aside {width: 32%; background-color: #ffcc00;}
+footer .footer_child2, header .header_child2 {width: 68%;}
+main article {width: 50%;}
+.reference_area .reference_child{width: 50%; margin:0; padding: 0; float: left; padding-bottom: 10px; }
+
+footer .main_reference p {
+    padding: 0;
+    margin: 4px;
+    line-height: 19px;
+}
+
+footer .footer_hobbies_area {
+    position: relative;
+}
+
+footer .hobbies_section {
+    position: absolute;
+    top: 70px;
+}
+
+
+
+.fa-biking, .fa-swimmer, .fa-plane {
+    color: #333333;
+    border: 2px solid #333333;
+    font-size: 25px;
+    padding: 5px 5px;
+    margin: 0 33.1px;
+    
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.surline_reference {
+    margin: 0 65px;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover, .tel:hover {
+    color: blue;
+    font-weight: bolder;
+}
+
+.name_ref {
+    font-weight: 600;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992.98px) { 
+    .formation_area .formation_child1, .profession_area .profession_child1 {
+        width: 140px;
+    }
+    .formation_area .formation_child2, .profession_area .profession_child2 {
+        width: 235px;
+    }
+    footer .hobbies_section {
+        margin-bottom: 60px;
+    }
+
+    
+footer .hobbies_section {
+    top: 10px;
+    }
+
+    p ~ p {
+        text-align: justify;
+    }
+ }
+ 
+ /* Small devices (landscape phones, less than 768px) */
+
+ @media (max-width: 767.98px) {
+    .formation_area .formation_child1, .profession_area .profession_child1 {
+        width: 250px;
+    }
+    .formation_area .formation_child2, .profession_area .profession_child2 {
+        width: 250px;
+    } 
+
+    h3 {
+        padding-top: 20px;
+    }
+    main .main_area article, header .header_child2 .big_title, footer .reference_title {
+       
+        padding-right: 5px;
+        font-size: medium;
+    }
+
+    .formation_area, .profession_area {
+        margin-top: 3px;
+        margin-bottom: 20px;
+    }
+
+    main aside .description_section p  {
+        font-size: medium;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .reference_area .reference_child {
+        width: 40%;
+    }
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    p~p, .reference_area .main_reference {
+        font-size: small;
+    }
+
+    main aside address ul li {
+        font-size: 10px;
+    }
+
+    main aside address ul {
+        padding-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    main aside address {     
+        margin-bottom: 10px;
+    }
+
+    main aside address p {
+        margin-bottom: 15px;
+    }
+
+    main .main_area article, header .header_child2 .big_title, footer .reference_title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header div .logo_section img {
+        width: 80px;
+        height: 80px;
+    }
+
+    header div .logo_section {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        height: 110px;
+        
+    }
+
+    header .header_child2 .big_title {
+        margin-bottom: 10px;
+    }
+
+    header .header_child2 h1 {
+        padding-top: 0px;
+        /* padding-bottom: 25px; */
+        
+        font-size: 20px;
+    }
+
+    .position {
+        font-size: 15px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+
+    main aside address p, main aside .description_section .description, footer .hobbies_section .hobbies {
+        font-weight: 4px;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    main aside .description_section p {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: small;
+    }
+
+    footer div .hobbies_section p {
+        padding-left: 0px;
+    }
+
+    h2 {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    .formation_area .formation_child2, .profession_area .profession_child2 {
+        width: 150px;
+    }
+    .formation_area .formation_child1, .profession_area .profession_child1 {
+        width: 200px;
+    }
+
+    footer .footer_child1, header .header_child1, main aside {
+        overflow: hidden;
+    }
+
+    p~ul {
+        padding-left: 5px;
+    }
+
+    .surline_reference {
+        margin: 0 5px;
+    }
+
+    .reference_area .main_reference {
+        margin: 0;
+     
+    }
+
+    .fa-biking, .fa-swimmer, .fa-plane {
+        font-size: 13px;
+      
+    }
+
+    .reference_area .reference_child {
+        width: 100%;
+        float: none;
+    }
+
+}
+
