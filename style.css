@@ -232,177 +232,76 @@ a:hover, .tel:hover {
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 992.98px) { 
-    .formation_area .formation_child1, .profession_area .profession_child1 {
-        width: 140px;
-    }
-    .formation_area .formation_child2, .profession_area .profession_child2 {
-        width: 235px;
-    }
-    footer .hobbies_section {
-        margin-bottom: 60px;
-    }
-
-    
-footer .hobbies_section {
-    top: 10px;
+    body { /* pour enlever le scrool horieontal*/
+        width: auto;
+        margin: unset;
     }
 
     p ~ p {
         text-align: justify;
     }
- }
- 
- /* Small devices (landscape phones, less than 768px) */
 
- @media (max-width: 767.98px) {
-    .formation_area .formation_child1, .profession_area .profession_child1 {
-        width: 250px;
+    .header_area .main_header, .main_area .main_main { 
+        flex-direction: column;        
     }
+    .footer_area .main_footer {
+        flex-direction: column-reverse;
+    }
+    .header_area .header_child1, .header_area .header_child2, main aside, main article, .footer_area .footer_child1, .footer_area .footer_child2 {
+        width: 100%;  
+    }
+
+    .formation_area .formation_child1,  .formation_area .formation_child2, .profession_area .profession_child1, .profession_area .profession_child2 {
+        width: 50%;
+    }
+
+    .footer_area .main_footer .hobbies_section {
+        position: unset;
+    }
+
     .formation_area .formation_child2, .profession_area .profession_child2 {
-        width: 250px;
-    } 
-
-    h3 {
-        padding-top: 20px;
-    }
-    main .main_area article, header .header_child2 .big_title, footer .reference_title {
        
-        padding-right: 5px;
-        font-size: medium;
-    }
-
-    .formation_area, .profession_area {
-        margin-top: 3px;
-        margin-bottom: 20px;
-    }
-
-    main aside .description_section p  {
-        font-size: medium;
-        padding-left: 20px;
-        padding-right: 20px;
-        
-    }
-
-    .reference_area .reference_child {
-        width: 40%;
-    }
-}
-
- /* Extra small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) { 
-    p~p, .reference_area .main_reference {
-        font-size: small;
-    }
-
-    main aside address ul li {
-        font-size: 10px;
-    }
-
-    main aside address ul {
-        padding-left: 5px;
-        margin-bottom: 5px;
-        margin-top: 5px;
-    }
-
-    main aside address {     
-        margin-bottom: 10px;
-    }
-
-    main aside address p {
-        margin-bottom: 15px;
-    }
-
-    main .main_area article, header .header_child2 .big_title, footer .reference_title {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    header div .logo_section img {
-        width: 80px;
-        height: 80px;
-    }
-
-    header div .logo_section {
-        padding-top: 5px;
-        padding-bottom: 0px;
-        height: 110px;
-        
-    }
-
-    header .header_child2 .big_title {
-        margin-bottom: 10px;
-    }
-
-    header .header_child2 h1 {
-        padding-top: 0px;
-        /* padding-bottom: 25px; */
-        
-        font-size: 20px;
-    }
-
-    .position {
-        font-size: 15px;
-        letter-spacing: 0px;
-        word-spacing: 0px;
-    }
-
-    main aside address p, main aside .description_section .description, footer .hobbies_section .hobbies {
-        font-weight: 4px;
-        font-size: 12px;
-        margin-bottom: 5px;
-    }
-    main aside .description_section p {
-        padding-left: 5px;
-        padding-right: 5px;
-        font-size: small;
-    }
-
-    footer div .hobbies_section p {
         padding-left: 0px;
+        
     }
 
-    h2 {
-        font-size: 15px;
-        letter-spacing: 0px;
+    main .main_area article, .footer_area .main_footer {
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    h3 {
-        font-size: 13px;
+    main .main_area article section, .footer_area .main_footer .footer_child2 {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
-    .formation_area .formation_child2, .profession_area .profession_child2 {
-        width: 150px;
-    }
-    .formation_area .formation_child1, .profession_area .profession_child1 {
-        width: 200px;
-    }
-
-    footer .footer_child1, header .header_child1, main aside {
-        overflow: hidden;
+    .footer_area .footer_child2 {
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
-    p~ul {
-        padding-left: 5px;
+    footer .reference_title {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .surline_reference {
-        margin: 0 5px;
+        margin: 0px;
     }
 
     .reference_area .main_reference {
-        margin: 0;
-     
+        margin-left: 0px;
     }
 
-    .fa-biking, .fa-swimmer, .fa-plane {
-        font-size: 13px;
-      
+    .footer_area .hobbies_section ul {
+        text-align: center;
     }
 
-    .reference_area .reference_child {
-        width: 100%;
-        float: none;
+    main aside .description_section {
+        margin-bottom: 46px;
     }
+ }
+ 
 
-}
 
