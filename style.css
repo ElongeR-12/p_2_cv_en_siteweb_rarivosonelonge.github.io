@@ -79,11 +79,16 @@ main aside .description_section p  {
     color: #333333;
 }
 
-header .header_child2 .big_title, main .main_area article, footer .reference_title {
+main .main_area article section, footer .reference_title {
     padding-left: 65px;
     padding-right: 65px;
     font-family: auto;
     font-size: large;
+}
+
+header .header_child2 .big_title {
+    padding-left: 65px;
+    padding-right: 0px;
 }
 
 header .header_child2 .big_title {
@@ -171,11 +176,10 @@ h2 {
 .formation_area, .profession_area {width: 100%; margin: 46px 0; overflow: hidden; }
 .header_area, .main_area, .footer_area, .header_area .main_header, .main_area .main_main, .footer_area .main_footer, .formation_area .main_formation, .profession_area .main_profession, .reference_area {width: 100%; overflow: hidden; margin: 0;}
 .reference_area .main_reference {width: 100%; overflow: hidden; margin: 15px 0px 30px 65px; font-family: auto;}
-.formation_area .formation_child1, .profession_area .profession_child1{width: 254px; margin: 0 0 46px 0; padding: 0; float: left; }
-.formation_area .formation_child2, .profession_area .profession_child2{width: 335px; margin: 0 0 0 0; padding: 0; float: left;}
+.formation_area .formation_child1, .profession_area .profession_child1{width: 180px; margin: 0 0 46px 0; padding: 0; float: left; }
+.formation_area .formation_child2, .profession_area .profession_child2{width: 430px; margin: 0; padding: 0 0 0 10px; float: left;}
 footer .footer_child1, header .header_child1, main aside {width: 32%; background-color: #ffcc00;}
-footer .footer_child2, header .header_child2 {width: 68%;}
-main article {width: 50%;}
+footer .footer_child2, header .header_child2, main article {width: 68%;}
 .reference_area .reference_child{width: 50%; margin:0; padding: 0; float: left; padding-bottom: 10px; }
 
 footer .main_reference p {
@@ -220,7 +224,6 @@ a {
 
 a:hover, .tel:hover {
     color: blue;
-    font-weight: bolder;
 }
 
 .name_ref {
