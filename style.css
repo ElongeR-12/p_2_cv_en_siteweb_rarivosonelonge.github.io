@@ -303,5 +303,31 @@ a:hover, .tel:hover {
     }
  }
  
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+
+    .formation_area .formation_child1,  .formation_area .formation_child2, .profession_area .profession_child1, .profession_area .profession_child2 {
+        width: 100%;
+    }
+
+    main .main_area article section {
+        padding-left: 0px;
+        padding-right: 0px
+    }
+
+    header .header_child2 .big_title, main aside address ul {
+        padding-left: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    main aside .description_section p~p  {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 15px;
+        margin-right: 15px; 
+    }
+}
+
 
 
