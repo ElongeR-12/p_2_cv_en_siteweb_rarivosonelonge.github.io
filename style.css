@@ -50,6 +50,7 @@ main aside address p, main aside .description_section .description, footer .foot
     margin-top: 0px;
     font-size: 20px;
     margin-bottom: 36px;
+    text-transform: uppercase;
 }
 
 main aside address ul {
@@ -146,14 +147,16 @@ ARTICLE
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 4px;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .profession_title, .formation_area .date_region, .profession_area .date_region, .reference_title, footer .footer_child1 .hobbies_list {
@@ -233,6 +236,7 @@ a:hover, .tel:hover {
 
 .name_ref {
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* Medium devices (tablets, less than 992px) */

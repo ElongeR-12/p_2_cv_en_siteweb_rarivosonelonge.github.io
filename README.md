@@ -6,7 +6,7 @@ Il s'agit de mon **2em projet sur OPENCLASROOMS**, Job Etudes Nouvelle Aquitaine
 * Farie l'indentation automatique
 * Rajouter la balise meta description
 * Réduire les codes HTML et CSS 
-    * div inutile à ulever
+    * div inutile à enlever
     * réduire les classes dans HTML
 * Importer icônes/polices depuis un CDN
 * Vérifier HTML et CSS sur le validateur W3C
