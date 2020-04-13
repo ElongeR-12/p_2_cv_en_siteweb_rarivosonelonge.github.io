@@ -3,7 +3,7 @@ Il s'agit de mon **2em projet sur OPENCLASROOMS**, Job Etudes Nouvelle Aquitaine
 
 ## Tâches restantes
 * changer l'affichage en responsive mobile
-* Farie l'indentation automatique
+* Faire l'indentation automatique
 * Rajouter la balise meta description
 * Réduire les codes HTML et CSS 
     * div inutile à enlever
