@@ -11,7 +11,7 @@ body {
     border: 2px solid #cc9933;
     width: 1186px;
     max-width: 100%;
-    padding: auto;   
+    padding: auto;
 }
 
 header div .logo_section {
@@ -19,7 +19,7 @@ header div .logo_section {
     padding-top: 62px;
     padding-bottom: 40px;
     text-align: center;
-} 
+}
 
 header div .logo_section img {
     width: 216px;
@@ -35,22 +35,28 @@ header div .logo_section img {
 
 
 main aside address {
-    margin-top:0;
+    margin-top: 0;
     margin-bottom: 46px;
 }
 
-main aside address p, main aside .description_section .description, footer .footer_area .footer_child1 p {
+main aside address p,
+main aside .description_section .description,
+footer .footer_child1 p {
     text-align: center;
     background-color: #333333;
     color: #ffcc00;
     padding-top: 16px;
     padding-bottom: 8px;
-    font-style:normal;
+    font-style: normal;
     font-weight: 4px;
     margin-top: 0px;
     font-size: 20px;
     margin-bottom: 36px;
     text-transform: uppercase;
+}
+
+footer.footer_child1 .hobbies {
+    margin-bottom: 2px;
 }
 
 main aside address ul {
@@ -59,9 +65,9 @@ main aside address ul {
     font-size: medium;
     font-weight: 600;
     padding-left: 48px;
-    color:#333333;
+    color: #333333;
     margin-bottom: 23px;
-    margin-top: 23px;   
+    margin-top: 23px;
 }
 
 main aside address ul li {
@@ -69,7 +75,7 @@ main aside address ul li {
     line-height: 17px;
 }
 
-main aside .description_section p  {
+main aside .description_section p {
     font-size: large;
     line-height: 17px;
     font-family: auto;
@@ -80,7 +86,8 @@ main aside .description_section p  {
     color: #333333;
 }
 
-main .main_area article section, footer .reference_title {
+main .content section,
+footer .reference_title {
     padding-left: 65px;
     padding-right: 65px;
     font-family: auto;
@@ -122,24 +129,28 @@ header .header_child2 h1 span {
 }
 
 header .header_child2 .little_surline {
- width: 78px;
- float: left;
- margin-top: 8px;
- margin-bottom: 0px;
+    width: 78px;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 
 hr {
-    border: 2px solid #ffcc00; 
+    border: 2px solid #ffcc00;
 }
 
 /*
-ARTICLE
+Contenu
 */
 
-.fas, .far {
+.fas,
+.far {
     color: #ffcc00;
 }
-.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt {
+
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-pencil-alt {
     font-size: 40px;
     margin-right: 38px;
     position: relative;
@@ -159,61 +170,147 @@ h3 {
     text-transform: uppercase;
 }
 
-.profession_title, .formation_area .date_region, .profession_area .date_region, .reference_title, footer .footer_child1 .hobbies_list {
-    text-align: left; padding: 0; margin: 0;
+.profession_title,
+.formation_area .date_region,
+.profession_area .date_region,
+.reference_title,
+footer .footer_child1 .hobbies_list {
+    text-align: left;
+    padding: 0;
+    margin: 0;
 }
 
-.profession_title .fa-briefcase, .profession_title h2, .formation_title .fa-graduation-cap, .formation_title h2, .formation_area .date_region .fa-dot-circle, .formation_area .date_region ul, .formation_title h2, .formation_area .date_region .fa-dot-circle, .profession_title .fa-graduation-cap, .profession_title h2, .profession_area .date_region .fa-dot-circle, .profession_area .date_region ul, .profession_title h2, .profession_area .date_region .fa-dot-circle, .reference_title .fa-pencil-alt, .reference_title h2, footer ul li{
+.profession_title .fa-briefcase,
+.profession_title h2,
+.formation_title .fa-graduation-cap,
+.formation_title h2,
+.formation_area .date_region .fa-dot-circle,
+.formation_area .date_region ul,
+.formation_title h2,
+.formation_area .date_region .fa-dot-circle,
+.profession_title .fa-graduation-cap,
+.profession_title h2,
+.profession_area .date_region .fa-dot-circle,
+.profession_area .date_region ul,
+.profession_title h2,
+.profession_area .date_region .fa-dot-circle,
+.reference_title .fa-pencil-alt,
+.reference_title h2,
+footer ul li {
     display: inline-block;
 }
-.formation_area .date_region, .profession_area .date_region {
+
+.formation_area .date_region,
+.profession_area .date_region {
     position: relative;
 }
 
-.formation_area .date_region .fa-dot-circle, .formation_area .date_region .fa-circle, .profession_area .date_region .fa-dot-circle, .profession_area .date_region .fa-circle {
+.formation_area .date_region .fa-dot-circle,
+.formation_area .date_region .fa-circle,
+.profession_area .date_region .fa-dot-circle,
+.profession_area .date_region .fa-circle {
     position: absolute;
     top: 22px;
 }
-.formation_area .date_region ul, .profession_area .date_region ul {
-  list-style: none;
-  position: absolute;
-  top: 5px;
+
+.formation_area .date_region ul,
+.profession_area .date_region ul {
+    list-style: none;
+    position: absolute;
+    top: 5px;
 }
 
-.footer_area .main_footer, .header_area .main_header, .main_area .main_main { display: flex}
-.formation_area, .profession_area {width: 100%; margin: 46px 0; overflow: hidden; }
-.header_area, .main_area, .footer_area, .header_area .main_header, .main_area .main_main, .footer_area .main_footer, .formation_area .main_formation, .profession_area .main_profession, .reference_area {width: 100%; overflow: hidden; margin: 0;}
-.reference_area .main_reference {width: 100%; overflow: hidden; margin: 15px 0px 30px 65px; font-family: auto;}
-.formation_area .formation_child1, .profession_area .profession_child1{width: 180px; margin: 0 0 46px 0; padding: 0; float: left; }
-.formation_area .formation_child2, .profession_area .profession_child2{width: 430px; margin: 0; padding: 0 0 0 10px; float: left;}
-footer .footer_child1, header .header_child1, main aside {width: 32%; background-color: #ffcc00;}
-footer .footer_child2, header .header_child2, main article {width: 68%;}
-.reference_area .reference_child{width: 50%; margin:0; padding: 0; float: left; padding-bottom: 10px; }
+.container {
+    display: flex
+}
 
-footer .main_reference p {
+.formation_area,
+.profession_area {
+    width: 100%;
+    margin: 46px 0;
+    overflow: hidden;
+}
+
+header,
+main,
+footer,
+.container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.reference_area {
+    width: 100%;
+    overflow: hidden;
+    margin: 53px 0px 30px 53px;
+    font-family: auto;
+}
+
+.formation_area div:nth-child(2n+1),
+.profession_area div:nth-child(2n+1) {
+    width: 180px;
+    margin: 0 0 46px 0;
+    padding: 0;
+    float: left;
+}
+
+.formation_area div:nth-child(2n),
+.profession_area div:nth-child(2n) {
+    width: 430px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    float: left;
+}
+
+footer .footer_child1,
+header .header_child1,
+main aside {
+    width: 32%;
+    background-color: #ffcc00;
+}
+
+footer .footer_child2,
+header .header_child2,
+main .content {
+    width: 68%;
+}
+
+.reference_area div:nth-child(2n),
+.reference_area div:nth-child(2n+1) {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    padding-bottom: 10px;
+}
+
+footer .reference_area p {
     padding: 0;
     margin: 4px;
     line-height: 19px;
 }
 
-footer .footer_hobbies_area {
+footer .footer_child1 {
     position: relative;
 }
 
 footer .hobbies_section {
     position: absolute;
-    top: 70px;
+    top: 80px;
 }
 
 
 
-.fa-biking, .fa-swimmer, .fa-plane {
+.fa-biking,
+.fa-swimmer,
+.fa-plane {
     color: #333333;
     border: 2px solid #333333;
     font-size: 25px;
     padding: 5px 5px;
     margin: 0 33.1px;
-    
+
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -230,7 +327,8 @@ a {
     text-decoration: none;
 }
 
-a:hover, .tel:hover {
+a:hover,
+.tel:hover {
     color: blue;
 }
 
@@ -240,51 +338,75 @@ a:hover, .tel:hover {
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 992.98px) { 
-    body { /* pour enlever le scrool horieontal*/
+@media (max-width: 992.98px) {
+    body {
+        /* pour enlever le scrool horieontal*/
         width: auto;
         margin: unset;
     }
 
-    p ~ p {
+    p~p {
         text-align: justify;
     }
 
-    .header_area .main_header, .main_area .main_main { 
-        flex-direction: column;        
+    .formation_title {
+        margin-top: 30px;
     }
-    .footer_area .main_footer {
+
+    header .container,
+    main .container {
+        flex-direction: column;
+    }
+
+    footer .container {
         flex-direction: column-reverse;
     }
-    .header_area .header_child1, .header_area .header_child2, main aside, main article, .footer_area .footer_child1, .footer_area .footer_child2 {
-        width: 100%;  
-    }
 
-    .formation_area .formation_child1,  .formation_area .formation_child2, .profession_area .profession_child1, .profession_area .profession_child2 {
-        width: 50%;
-    }
-
-    .footer_area .main_footer .hobbies_section {
+    footer .container .hobbies_section {
         position: unset;
     }
 
-    .formation_area .formation_child2, .profession_area .profession_child2 {
-       
-        padding-left: 0px;
-        
+    header .header_child1,
+    header .header_child2,
+    main aside,
+    main .content,
+    footer .footer_child1,
+    footer .footer_child2 {
+        width: 100%;
     }
 
-    main .main_area article, .footer_area .main_footer {
+    .formation_area div:nth-child(2n+1),
+    .formation_area div:nth-child(2n),
+    .profession_area div:nth-child(2n+1),
+    .profession_area div:nth-child(2n) {
+        width: 50%;
+    }
+
+    main .content section {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .formation_area div:nth-child(2n),
+    .profession_area div:nth-child(2n) {
+
+        padding-left: 0px;
+
+    }
+
+    main .content,
+    footer .container {
         padding-left: 0;
         padding-right: 0;
     }
 
-    main .main_area article section, .footer_area .main_footer .footer_child2 {
+    main .content section,
+    footer .container .footer_child2 {
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    .footer_area .footer_child2 {
+    footer .footer_child2 {
         width: auto;
         margin-left: 15px;
         margin-right: 15px;
@@ -299,44 +421,51 @@ a:hover, .tel:hover {
         margin: 0px;
     }
 
-    .reference_area .main_reference {
+    .reference_area {
         margin-left: 0px;
     }
 
-    .footer_area .hobbies_section ul {
+    footer .hobbies_section ul {
         text-align: center;
     }
 
     main aside .description_section {
         margin-bottom: 46px;
     }
- }
- 
- /* Extra small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) { 
+}
 
-    .formation_area .formation_child1,  .formation_area .formation_child2, .profession_area .profession_child1, .profession_area .profession_child2 {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+    .formation_area div:nth-child(2n+1),
+    .formation_area div:nth-child(2n),
+    .profession_area div:nth-child(2n+1),
+    .profession_area div:nth-child(2n) {
         width: 100%;
     }
 
-    main .main_area article section {
+    main .content section {
         padding-left: 0px;
         padding-right: 0px
     }
 
-    header .header_child2 .big_title, main aside address ul {
+    header .header_child2 .big_title,
+    main aside address ul {
         padding-left: 0px;
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    main aside .description_section p~p  {
+    main aside .description_section p~p {
         padding-left: 0px;
         padding-right: 0px;
         margin-left: 15px;
-        margin-right: 15px; 
+        margin-right: 15px;
+    }
+
+    .reference_area div:nth-child(2n),
+    .reference_area div:nth-child(2n+1) {
+        width: 100%;
     }
 }
-
-
-
