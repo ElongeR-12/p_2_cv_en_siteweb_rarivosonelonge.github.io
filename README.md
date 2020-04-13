@@ -10,3 +10,14 @@ Il s'agit de mon **2em projet sur OPENCLASROOMS**, Job Etudes Nouvelle Aquitaine
     * réduire les classes dans HTML
 * Importer icônes/polices depuis un CDN
 * Vérifier HTML et CSS sur le validateur W3C
+<<<<<<< HEAD
+=======
+
+Cliquer sur mon [site]( https://elonger-12.github.io/p_2_cv_en_siteweb_rarivosonelonge.github.io/) pour le visiter, il est consultable sur différents écrans de taille variée!
+
+## Image du site
+
+![](ressources/images/responsive/ordinateur.png)
+
+
+>>>>>>> 19f6a8caad5a04c6e0658ce53a03db666029c009
