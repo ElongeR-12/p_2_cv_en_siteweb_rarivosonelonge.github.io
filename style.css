@@ -3,9 +3,8 @@ GLOBAL
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-
 body {
-    font-family             : 'Roboto', sans-serif;
+    font-family             : 'sans-serif', Roboto ;
     color                   : black;
     margin                  : auto;
     border                  : 2px solid #cc9933;
@@ -78,7 +77,6 @@ main aside address ul li {
 main aside .description_section p {
     font-size               : large;
     line-height             : 17px;
-    font-family             : auto;
     font-weight             : 1px;
     padding-left            : 48px;
     padding-right           : 48px;
@@ -90,7 +88,6 @@ main .content section,
 footer .reference_title {
     padding-left            : 65px;
     padding-right           : 65px;
-    font-family             : auto;
     font-size               : large;
 }
 
@@ -173,8 +170,7 @@ h3 {
 .profession_title,
 .formation_area .date_region,
 .profession_area .date_region,
-.reference_title,
-footer .footer_child1 .hobbies_list {
+.reference_title {
     text-align              : left;
     padding                 : 0;
     margin                  : 0;
@@ -244,7 +240,6 @@ footer,
     width                   : 100%;
     overflow                : hidden;
     margin                  : 53px 0px 30px 53px;
-    font-family             : auto;
 }
 
 .formation_area div:nth-child(2n+1),
