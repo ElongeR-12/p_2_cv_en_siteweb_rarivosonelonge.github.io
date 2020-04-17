@@ -323,8 +323,8 @@ a {
     text-decoration         : none;
 }
 
-a:hover,
-.tel:hover {
+a,
+.tel {
     color                   : blue;
 }
 
