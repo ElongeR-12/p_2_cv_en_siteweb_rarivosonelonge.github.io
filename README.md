@@ -13,9 +13,15 @@ Il s'agit de mon **2em projet sur OPENCLASROOMS**, Job Etudes Nouvelle Aquitaine
 
 Cliquer sur mon [site]( https://elonger-12.github.io/p_2_cv_en_siteweb_rarivosonelonge.github.io/) pour le visiter, il est consultable sur différents écrans de taille variée!
 
-## Image du site
+## Aperçu du site
+### sur desktops
 
-![](ressources/images/responsive/ordinateur.png)
+![](./ressources/images/responsive/laptop_view.gif)
 
+### sur tablets
 
+![](./ressources/images/responsive/tablet_view.gif)
 
+### sur téléphones
+
+![](./ressources/images/responsive/mobile_view.gif)
