@@ -291,6 +291,7 @@ footer .container div:last-child .reference_area {
 
 footer .container div:last-child hr {
     margin                      : 0 65px;
+    background-color: #ffcc00;
 }
 
 footer .container div:last-child .reference_area {
