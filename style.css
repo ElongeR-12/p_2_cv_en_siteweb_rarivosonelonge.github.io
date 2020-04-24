@@ -1,158 +1,167 @@
-/*
-GLOBAL
-*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 html {
-    font-family: 'Open Sans', sans-serif;
-    }
+    font-family                 : 'Open Sans', sans-serif;
+}
+
 body {
-    color                   : black;
-    margin                  : auto;
-    border                  : 2px solid #cc9933;
-    width                   : 1186px;
-    max-width               : 100%;
+    color                       : black;
+    margin                      : auto;
+    border                      : 2px solid #cc9933;
+    width                       : 1186px;
+    max-width                   : 100%;
 }
 
 .container {
-    display                 : flex
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex
 }
 
-.container > div:first-child, .container > aside {
-    width: 32%; 
-    background-color: #ffcc00;
-}
-.container > div:last-child, main .content {
-    width                   : 68%;
+.container>div:first-child,
+.container>aside {
+    width                       : 32%;
+    background-color            : #ffcc00;
 }
 
-.container > div:first-child div.image {
-    margin-right: auto;
-    margin-left: auto;
-    padding-top             : 62px;
-    padding-bottom          : 40px;
-    text-align: center;
+.container>div:last-child,
+main .content {
+    width                       : 68%;
 }
 
-.container > div:first-child div img {
-    width                   : 216px;
-    height                  : 216px;
-    border                  : 4px solid #cc9900;
-    border-radius           : 50%;
-    -webkit-border-radius   : 50%;
-    -moz-border-radius      : 50%;
-    -ms-border-radius       : 50%;
-    -o-border-radius        : 50%;
-    max-width               : 100%;
+.container>div:first-child div.image {
+    margin-right                : auto;
+    margin-left                 : auto;
+    padding-top                 : 62px;
+    padding-bottom              : 40px;
+    text-align                  : center;
+}
+
+.container>div:first-child div img {
+    width                       : 216px;
+    height                      : 216px;
+    border                      : 4px solid #cc9900;
+    border-radius               : 50%;
+    -webkit-border-radius       : 50%;
+    -moz-border-radius          : 50%;
+    -ms-border-radius           : 50%;
+    -o-border-radius            : 50%;
+    max-width                   : 100%;
 }
 
 
-.container > div:last-child .big_title {
-    padding-left            : 65px;
-    padding-right           : 0px;
-    margin-bottom           : 110px;
-    margin-top              : 19px;
-    letter-spacing          : 8px;
-    word-spacing            : 20px;
+.container>div:last-child .big_title {
+    padding-left                : 65px;
+    padding-right               : 0px;
+    margin-bottom               : 110px;
+    margin-top                  : 19px;
+    letter-spacing              : 8px;
+    word-spacing                : 20px;
 }
 
-.container > div:last-child > div h1 {
-    padding-top             : 116px;
-    font-weight             : 300;
-    padding-bottom          : 25px;
-    margin-top              : 0px;
-    margin-bottom           : 0px;
-    font-size               : 45px;
+.container>div:last-child>div h1 {
+    padding-top                 : 116px;
+    font-weight                 : 300;
+    padding-bottom              : 25px;
+    margin-top                  : 0px;
+    margin-bottom               : 0px;
+    font-size                   : 45px;
 }
 
-.container > div:last-child > div h1 span {
-    font-weight             : 400;
-    color                   : #ffcc00;
+.container>div:last-child>div h1 span {
+    font-weight                 : 400;
+    color                       : #ffcc00;
 }
 
-.container > div:last-child > div > p {
-    margin-bottom           : 0px;
-    margin-top              : 0px;
-    font-size               : 20px;
-    letter-spacing          : 4px;
-    word-spacing            : 8px;
+.container>div:last-child>div>p {
+    margin-bottom               : 0px;
+    margin-top                  : 0px;
+    font-size                   : 20px;
+    letter-spacing              : 4px;
+    word-spacing                : 8px;
 }
 
-.container > div:last-child > div > hr {
-    width                   : 78px;
-    float                   : left;
-    margin-top              : 8px;
-    margin-bottom           : 0px;
+.container>div:last-child>div>hr {
+    width                       : 78px;
+    float                       : left;
+    margin-top                  : 8px;
+    margin-bottom               : 0px;
 }
 
 hr {
-    border                  : 2px solid #ffcc00;
+    border                      : 2px solid #ffcc00;
 }
 
 
 .container aside address {
-    margin-top              : 0;
-    margin-bottom           : 46px;
+    margin-top                  : 0;
+    margin-bottom               : 46px;
 }
 
 main aside address p,
-main aside > div p:first-child,
-.container > div:first-child div p {
-    text-align              : center;
-    background-color        : #333333;
-    color                   : #ffcc00;
-    padding-top             : 16px;
-    padding-bottom          : 8px;
-    font-style              : normal;
-    font-weight             : bold;
-    margin-top              : 0px;
-    font-size               : 20px;
-    margin-bottom           : 36px;
-    text-transform          : uppercase;
+main aside>div p:first-child,
+.container>div:first-child div p {
+    text-align                  : center;
+    background-color            : #333333;
+    color                       : #ffcc00;
+    padding-top                 : 16px;
+    padding-bottom              : 8px;
+    font-style                  : normal;
+    font-weight                 : bold;
+    margin-top                  : 0px;
+    font-size                   : 20px;
+    margin-bottom               : 36px;
+    text-transform              : uppercase;
 }
 
 main aside address ul {
-    font-style              : normal;
-    list-style              : none;
-    font-size               : medium;
-    font-weight             : 600;
-    padding-left            : 48px;
-    color                   : #333333;
-    margin-bottom           : 23px;
-    margin-top              : 23px;
+    font-style                  : normal;
+    list-style                  : none;
+    font-size                   : medium;
+    font-weight                 : 600;
+    padding-left                : 48px;
+    color                       : #333333;
+    margin-bottom               : 23px;
+    margin-top                  : 23px;
 }
 
 main aside address ul li {
-    font-size               : 13px;
-    line-height             : 17px;
+    font-size                   : 13px;
+    line-height                 : 17px;
 }
 
-main aside > div p:last-child {
-    font-size               : large;
-    line-height             : 17px;
-    font-weight             : normal;
-    padding-left            : 48px;
-    padding-right           : 48px;
-    text-align              : justify;
-    color                   : #333333;
+main aside>div p:last-child {
+    font-size                   : large;
+    line-height                 : 17px;
+    font-weight                 : normal;
+    padding-left                : 48px;
+    padding-right               : 48px;
+    text-align                  : justify;
+    color                       : #333333;
 }
 
 main .container .content section,
 .container div:last-child .reference_title {
-    padding-left            : 65px;
-    padding-right           : 65px;
-    font-size               : large;
+    padding-left                : 65px;
+    padding-right               : 65px;
+    font-size                   : large;
 }
 
-main .content  div:first-child, footer .container div:last-child .reference_title {
-    display: flex;
+main .content div:first-child,
+footer .container div:last-child .reference_title {
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex;
 }
+
 main .content section hr {
-    margin-bottom: 30px;
+    margin-bottom               : 30px;
 }
 
-main .content section div:first-child i, footer .container div:last-child div:first-child i{
-    margin-top: 20px;
+main .content section div:first-child i,
+footer .container div:last-child div:first-child i {
+    margin-top                  : 20px;
 }
 
 /*
@@ -161,240 +170,263 @@ Contenu
 
 .fas,
 .far {
-    color                   : #ffcc00;
+    color                       : #ffcc00;
 }
 
 .fa-graduation-cap,
 .fa-briefcase,
 .fa-pencil-alt {
-    font-size               : 40px;
-    margin-right            : 38px;
+    font-size                   : 40px;
+    margin-right                : 38px;
 }
 
 h2 {
-    font-size               : 23px;
-    font-weight             : bold;
-    letter-spacing          : 2px;
-    text-transform          : uppercase;
+    font-size                   : 23px;
+    font-weight                 : bold;
+    letter-spacing              : 2px;
+    text-transform              : uppercase;
 }
 
 
 h3 {
-    font-size               : 18px;
-    text-transform          : uppercase;
+    font-size                   : 18px;
+    text-transform              : uppercase;
 }
 
 .formation_area div,
 .profession_area div {
-    margin                  : 0 0 20px 0;
-    display: flex;
+    margin                      : 0 0 20px 0;
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex;
 }
+
 .formation_area div div:first-child,
-.profession_area div div:first-child{
-    display: flex; 
-    flex-direction: row;
+.profession_area div div:first-child {
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex;
+    -webkit-box-orient          : horizontal;
+    -webkit-box-direction       : normal;
+        -ms-flex-direction      : row;
+            flex-direction      : row;
 }
 
 .formation_area div div:first-child ul,
-.profession_area div div:first-child ul{
-    width: 160px; 
-    list-style: none;
+.profession_area div div:first-child ul {
+    width                       : 160px;
+    list-style                  : none;
 }
 
 .formation_area div div:last-child,
-.profession_area div div:last-child{
-    display: flex; 
-    flex-direction: column; 
-    padding-left: 60px;
+.profession_area div div:last-child {
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex;
+    -webkit-box-orient          : vertical;
+    -webkit-box-direction       : normal;
+        -ms-flex-direction      : column;
+            flex-direction      : column;
+    padding-left                : 60px;
 }
 
 /*FOOTER*/
 footer .footer_child1 .hobbies {
-    margin-bottom           : 2px;
+    margin-bottom               : 2px;
 }
 
-
-footer .container div:first-child  div {
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
+footer .container div:first-child div {
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex;
+    -webkit-box-orient          : vertical;
+    -webkit-box-direction       : normal;
+        -ms-flex-direction      : column;
+            flex-direction      : column;
+    margin-top                  : 90px;
 }
 
-footer .container div:first-child  div ul {
-    display: flex;
-    padding-left: 0;
-    list-style: none;
+footer .container div:first-child div ul {
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex;
+    padding-left                : 0;
+    list-style                  : none;
 }
 
-footer .container div:first-child  div ul li {
-    flex: 1;
-    text-align: center;
+footer .container div:first-child div ul li {
+    -webkit-box-flex            : 1;
+        -ms-flex                : 1;
+            flex                : 1;
+    text-align                  : center;
 }
 
 .reference_area {
-    display: flex;
-    justify-content: space-between;
+    display                     : -webkit-box;
+    display                     : -ms-flexbox;
+    display                     : flex;
+    -webkit-box-pack            : justify;
+        -ms-flex-pack           : justify;
+            justify-content     : space-between;
 }
 
 .fa-biking,
 .fa-swimmer,
 .fa-plane {
-    color                   : #333333;
-    border                  : 2px solid #333333;
-    font-size               : 25px;
-    padding                 : 5px 5px;
-    border-radius           : 50%;
-    -webkit-border-radius   : 50%;
-    -moz-border-radius      : 50%;
-    -ms-border-radius       : 50%;
-    -o-border-radius        : 50%;
+    color                       : #333333;
+    border                      : 2px solid #333333;
+    font-size                   : 25px;
+    padding                     : 5px 5px;
+    border-radius               : 50%;
+    -webkit-border-radius       : 50%;
+    -moz-border-radius          : 50%;
+    -ms-border-radius           : 50%;
+    -o-border-radius            : 50%;
 }
 
 footer .container div:last-child .reference_area {
-    padding                  : 0 65px;
+    padding                     : 0 65px;
 }
 
 footer .container div:last-child hr {
-    margin: 0 65px;
+    margin                      : 0 65px;
 }
+
 footer .container div:last-child .reference_area {
-    padding-top: 20px;
-    padding-bottom: 20px;
-} 
+    padding-top                 : 20px;
+    padding-bottom              : 20px;
+}
+
 a {
-    color                   : #333333;
-    text-decoration         : none;
+    color                       : #333333;
+    text-decoration             : none;
 }
 
 a,
 .tel {
-    color                   : blue;
+    color                       : blue;
 }
 
-.reference_area div p:first-child{
-    font-weight             : 600;
-    text-transform          : uppercase;
+.reference_area div p:first-child {
+    font-weight                 : 600;
+    text-transform              : uppercase;
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 992.98px) {
     body {
-        width               : auto;
-        margin              : unset;
+        width                   : auto;
+        margin                  : unset;
     }
 
     p~p {
-        text-align          : justify;
+        text-align              : justify;
     }
 
-    header .container, main .container {
-        flex-direction: column;
+    header .container,
+    main .container {
+        -webkit-box-orient      : vertical;
+        -webkit-box-direction   : normal;
+            -ms-flex-direction  : column;
+                flex-direction  : column;
     }
 
     footer .container {
-        flex-direction: column-reverse;
+        -webkit-box-orient      : vertical;
+        -webkit-box-direction   : reverse;
+            -ms-flex-direction  : column-reverse;
+                flex-direction  : column-reverse;
     }
 
-    .container > div:first-child, .container > aside, .container > div:last-child, main .content  {
-        width               : 100%;
+    .container>div:first-child,
+    .container>aside,
+    .container>div:last-child,
+    main .content {
+        width                   : 100%;
     }
 
-    .container aside > div {
-        margin-bottom       : 46px;
+    .container aside>div {
+        margin-bottom           : 46px;
     }
-    main .container .content section, .container div:last-child .reference_title, footer .container div:last-child .reference_area {
-        padding-left                  : 40px;
-        padding-right                  : 40px;
+
+    main .container .content section,
+    .container div:last-child .reference_title,
+    footer .container div:last-child .reference_area {
+        padding-left            : 40px;
+        padding-right           : 40px;
     }
 
     footer .container div:last-child hr {
-        margin-left:  40px;
-        margin-right:  40px;
+        margin-left             : 40px;
+        margin-right            : 40px;
     }
 
-    footer .container div:first-child  div {
-        margin-top: 0;
+    footer .container div:first-child div {
+        margin-top              : 0;
     }
-    
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    main .content div:first-child, footer .container div:last-child .reference_title, .formation_area div, .profession_area div {
-        flex-direction: column;
+    main .content div:first-child,
+    footer .container div:last-child .reference_title,
+    .formation_area div,
+    .profession_area div {
+        -webkit-box-orient      : vertical;
+        -webkit-box-direction   : normal;
+            -ms-flex-direction  : column;
+                flex-direction  : column;
     }
 
-    .formation_area div div:first-child, .profession_area div div:first-child {
-        flex-direction: row;
-    }
-    .formation_area div div:first-child ul, .profession_area div div:first-child ul {
-        padding-left: 20px;
-    }
-
-    .formation_area div div:last-child, .profession_area div div:last-child {
-        padding-left: 0px;
+    .formation_area div div:first-child,
+    .profession_area div div:first-child {
+        -webkit-box-orient      : horizontal;
+        -webkit-box-direction   : normal;
+            -ms-flex-direction  : row;
+                flex-direction  : row;
     }
 
-    .container > div:last-child > div h1 {
-        padding-top: 10px;
+    .formation_area div div:first-child ul,
+    .profession_area div div:first-child ul {
+        padding-left            : 20px;
     }
-    .container > div:last-child .big_title {
-        padding-left: 15px;
-        margin-bottom: 100px;
+
+    .formation_area div div:last-child,
+    .profession_area div div:last-child {
+        padding-left            : 0px;
     }
-    main aside > div p:last-child {
+
+    .container>div:last-child>div h1 {
+        padding-top             : 10px;
+    }
+
+    .container>div:last-child .big_title {
+        padding-left            : 15px;
+        margin-bottom           : 100px;
+    }
+
+    main aside>div p:last-child {
         padding-left            : 15px;
         padding-right           : 15px;
 
     }
 
-    main .container .content section, .container div:last-child .reference_title, footer .container div:last-child .reference_area {
-        padding-left                  : 15px;
-        padding-right                  : 15px;
+    main .container .content section,
+    .container div:last-child .reference_title,
+    footer .container div:last-child .reference_area {
+        padding-left            : 15px;
+        padding-right           : 15px;
     }
 
     footer .container div:last-child hr {
-        margin-left:  15px;
-        margin-right:  15px;
+        margin-left             : 15px;
+        margin-right            : 15px;
     }
 
     main aside address ul {
-        padding-left: 15px;
-  
-    }
+        padding-left            : 15px;
 
-/* main .content div:first-child, footer .container div:last-child .reference_title {
-    flex-direction: column;
-} */
-    /* .formation_area div:nth-child(2n+1),
-    .formation_area div:nth-child(2n),
-    .profession_area div:nth-child(2n+1),
-    .profession_area div:nth-child(2n) {
-        width               : 100%;
     }
-
-    main .content section {
-        padding-left        : 0px;
-        padding-right       : 0px
-    }
-
-    header .header_child2 .big_title,
-    main aside address ul {
-        padding-left        : 0px;
-        margin-left         : 15px;
-        margin-right        : 15px;
-    }
-
-    main aside .description_section p~p {
-        padding-left        : 0px;
-        padding-right       : 0px;
-        margin-left         : 15px;
-        margin-right        : 15px;
-    }
-
-    .reference_area div:nth-child(2n),
-    .reference_area div:nth-child(2n+1) {
-        width               : 100%;
-    } */
 }
